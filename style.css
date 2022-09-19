@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(./img/wallp-pizzas.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+.infoPizza {
+   width: auto;
+   max-height:80vh;
+   margin-top: 10px;
+   padding: 15px;
+   background: rgb(51, 50, 50);
+   border: 2px solid red;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+   position: relative;
+   font-size: 20px;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 201, 51);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.seleccionar {
+    margin-top: 30px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.seleccionar input p::placeholder {
+    padding-left: 2rem;
+    text-align: center;
+}
+
+.seleccionar-btn {
+    margin: 20px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 1rem;
+    color: black;
+    background-color: rgb(187, 62, 17)
+}
+
+.title p {
+    color: rgb(255, 230, 0);
+    font-size: 20px;
+}
+
+.message {
+    color: yellow;
+    font-size: 20px;
+}
+
+.precio p {
+    color: rgb(115, 236, 115);
+    font-size: 20px
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    border-radius: 100px;
+    image-resolution: auto;
+}
+
+.ing { 
+    width: auto;
+    font-size: 15px;
+    color:orange;
+    /* border: 2px solid red; */
+}
+
+.id {
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    width: auto;
+    font-size: 15px;
+    color:orange;
+    /* border: 2px solid red; */
+}
+
+@media (max-width: 1000px) {
+    .facet_sidebar {
+      /* display: none; */
+    }
+    
+    body {
+      /* background: 100%; */
+      /* border: 2px solid red; */
+      height: 800px;
+    }
+
+    h1 {
+        margin-bottom: 5%;
+    }
+
+    .infoPizza {
+        max-width: 70%;
+        max-height:80vh;
+        margin-top: 10px;
+        margin-left: 15%;
+        padding: 15px;
+        background: rgb(51, 50, 50);
+        border: 2px solid red;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+        align-items: center;
+        position: relative;
+        font-size: 20px;
+     }
+
+     .seleccionar-btn {
+        margin-bottom: 30%;
+     }
